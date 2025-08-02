@@ -1,4 +1,6 @@
-# React + Vite
+# Landing Page Project (Nike)
+This is a basic landing page project developed with REACT and VITE
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
