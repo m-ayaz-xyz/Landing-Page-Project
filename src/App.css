@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+*{
+    margin: 0;
+}
+button{
+    all: unset;  /*default styling of the element is reset in order to give new styling*/
+    padding: 6px 16px;
+    background-color: red;
+    height: 32px;
+    color: white;
+    font-weight: 500px;
+    border: none;
+    border-radius: 3px;
+}
+
+nav{
+    display: flex;   /*the content become horizontally placed*/ 
+    justify-content: space-between;   /*  spaces are added between logo links and buttons   */
+    max-width: 1280px;   /*gives the total width to the navbar*/
+    margin: 0 auto; /*this makes the margin 0 and brings the entire component in the center*/
+    height: 72px;
+    align-items: center; /* will bring the element in the centre as the given height*/
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.herosection{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;
+    align-items: center;
+    height: calc(100vh-72);
+    
+}
+
+.herocontent{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.herocontent h1{
+    font-weight: 800;
+    font-size: 108px;
+    line-height: 102px;
+}
+.herocontent p{
+    font-family: 600;
+    color: gray;
+    max-width: 400px;
+}
+
+.hero-btn {
+    display: flex;
+    gap: 40px; /*without using display flex we can't use gap property*/
+}
+
+.secondarybtn{
+    border: 1px solid black;
+    color: black; /*changes the text colour to black*/
+    background-color: transparent;
+}
+
+.shopon p{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.shopnow_logo{
+    display: flex;
+    gap: 16px;
+}
